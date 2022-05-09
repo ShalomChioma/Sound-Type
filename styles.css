@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    max-width: 2050px;
+    /* max-height: 2050px; */
+    margin: auto;
+}
+.container {
+    background-color: black;
+    height: 500px;
+    max-width: 2050px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+ul {
+    display: flex;
+    list-style-type:none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+.nav_item {
+    padding: 0 15px;
+}
+hr {
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+h2 {
+    color: white;
+    margin: 0;
+}
+
+.cart {
+    height: 30px;
+}
+.product-info {
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, black, rgb(56, 49, 49) black);
+    padding-top: 30px;
+}
+h6 {
+    
+}
+.new-product {
+    color: white;
+    width: 50%;
+}
+.button {
+    background-color:rgb(255, 89, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.audio {
+    color: gray;
+
+}
+.image-container {
+    margin-left: 50px;
+    margin: 0 auto;
+    width: 50%;
+  }
+.headset-image {
+    width: 100%;
+    max-height: 500px;
+}
+.phones {
+    margin: 0 auto;
+    width: 0 100%;
+    height: 500PX;
+}
+.sound {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 400px;
+    display: flex;
+    padding: 150px 0;
+    justify-content: space-between;
+}
+.sound-container {
+    height: 200px;
+    width: 280px;
+    background-color: rgb(220, 211, 211);
+    text-align:center;
+    border-radius: 5px;
+
+}
+.soundset {
+    max-height: 150px;
+    top: -75px;
+    background-image: none;
+    right: 90px;
+    width: 100px;
+    margin-top: -75px;
+   
+}
+.sound-shop {
+margin-left: 10px;
+    margin: 0 auto;
+    margin: 0px;
+}
+.shop {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 10px;
+    font:bold;
+}
+.h5-sound {
+    text-decoration: solid;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0px;
+}
+.shop-items {
+    color: gray;
+    text-decoration: solid;
+}
+.name {
+    height: 180px;
+}
+.speaker-container {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 350px;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(228, 109, 65);
+    border-radius: 5px;
+}
+.item-container{
+    width: 50%;
+    height: 100%;
+    padding-left: 100px;
+    margin-top: 83px;
+}
+.speaker {
+    margin: 0 auto;
+}
+.item-container2{
+    width: 50%;
+    height: 100%;
+    padding-left: 50px;
+    margin-top: 60px;
+    color: white;
+}
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.table-speaker {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 250px;
+    display: flex;
+    background-color: rgb(218, 211, 211); 
+    border-radius: 5px;
+    background-image: url("https://images.unsplash.com/photo-1531104985437-603d6490e6d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c3BlYWtlcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 1050px 250px;
+    margin-top: 30px;
+    position: relative;
+}
+.item-container3{
+    max-width: 1050px;
+    margin-top: 60px;
+    position: absolute;
+    right: 150px; 
+}
+/* .item-container4 {
+    max-width: 1050px;
+    height: 100%;
+    background-image: url("speaker3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.SPEAK {
+    margin-left: 100px;
+}
+.btn2 {
+    background-image: url("speaker3.jpg");
+    background-color: rgb(190, 187, 191);
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.earphone-container {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+}
+.YXI-earphone-container {
+    width: 530px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.XYI-image {
+    max-width: 700px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+.YXI-container {
+    width: 530px;
+    height: 250px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(242, 233, 233);
+}
+
+.btn3 {
+    background-color: rgb(242, 233, 233);
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 0px;
+    font-weight: bold;
+    margin-left: 85px;
+}
+#yxi {
+    text-align: center;
+}    
+.YXI-EAR {
+    background-color: rgb(242, 233, 233);
+    margin-top: 80px;
+}
+.audio-gear-contrainer {
+    margin: 0 auto;
+    max-width: 1050px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.gear {
+    max-width: 525px;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.human {
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+span {
+    color: red;
+}
+.social {
+    background-color: black;
+    max-width: 2050px;
+    margin: 0 auto;
+}
+.ul-nav {
+    color: white;
+}
+.audio-record {
+    max-width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+.located {
+    color: grey;
+}
+.copyright {
+    max-width: 525px;
+    color: grey;
+}
+.media {
+    max-width: 525px;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+.facebook {
+    max-height: 25px;
+    margin-right: 10px;
+}
+.right {
+  margin-top: 70px;
+}
